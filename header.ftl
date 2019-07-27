@@ -25,6 +25,7 @@
 
     <link href="//cdnjs.loli.net/ajax/libs/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
     <link href="${static!}/source/css/style.min.css" rel="stylesheet">
+    <link href="//cdn.staticfile.org/font-awesome/5.10.0-12/css/all.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="//cdnjs.loli.net/ajax/libs/html5shiv/r29/html5.min.js"></script>
     <script src="//cdnjs.loli.net/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
