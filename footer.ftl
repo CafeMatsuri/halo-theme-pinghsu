@@ -148,10 +148,10 @@ postDirectoryBuild();
 </#if>
 
 <#--<?php $this->footer(); ?>-->
-<script src="//cdnjs.loli.net/ajax/libs/headroom/0.9.1/headroom.min.js"></script>
+<script src="//cdn.staticfile.org/headroom/0.9.4/headroom.min.js"></script>
 
 <#if settings.post_highlight!true>
-<script src="//cdnjs.loli.net/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
+<script src="//cdn.staticfile.org/highlight.js/9.15.10/highlight.min.js"></script>
 </#if>
 
 
@@ -160,8 +160,10 @@ postDirectoryBuild();
 </#if>
 
 <#if settings.fast_click!false>
-<script src="//cdnjs.loli.net/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
+<script src="//cdn.staticfile.org/fastclick/1.0.6/fastclick.min.js"></script>
 </#if>
+
+<script src="//cdn.staticfile.org/mermaid/8.2.5/mermaid.min.js"></script>
 
 <script>
 
@@ -239,7 +241,7 @@ MathJax.Hub.Config({
 });
 MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
 </script>
-<script src="//cdnjs.loli.net/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script src="//cdn.staticfile.org/mathjax/2.7.6/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </#if>
 
 <#-- 统计代码 -->

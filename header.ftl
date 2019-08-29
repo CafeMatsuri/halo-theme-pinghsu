@@ -7,7 +7,7 @@
 
     <#if settings.pinghsu_general_dns!false>
     <meta http-equiv="x-dns-prefetch-control" content="on">
-    <link rel="dns-prefetch" href="//cdnjs.loli.net" />
+    <link rel="dns-prefetch" href="//cdn.staticfile.org" />
     <link rel="dns-prefetch" href="//gravatar.loli.net" />
     </#if>
 
@@ -23,12 +23,12 @@
     <meta name="keywords" content="${keywords!}" />
     <meta name="description" content="${description!}" />
 
-    <link href="//cdnjs.loli.net/ajax/libs/highlight.js/9.10.0/styles/xcode.min.css" rel="stylesheet">
+    <link href="//cdn.staticfile.org/highlight.js/9.15.10/styles/xcode.min.css" rel="stylesheet">
     <link href="${static!}/source/css/style.min.css" rel="stylesheet">
-    <link href="//cdn.staticfile.org/font-awesome/5.10.0-12/css/all.min.css" rel="stylesheet">
+    <link href="//cdn.staticfile.org/font-awesome/5.10.2/css/all.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
-    <script src="//cdnjs.loli.net/ajax/libs/html5shiv/r29/html5.min.js"></script>
-    <script src="//cdnjs.loli.net/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="//cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
+    <script src="//cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
 <body class="<#if is_index??>bg-grey</#if>" gtools_scp_screen_capture_injected="true">
